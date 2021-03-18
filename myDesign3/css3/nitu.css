@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    /* 
+    font-family: 'Satisfy', cursive; */
+}
+
+body {
+    margin: 0;
+    border: 8px solid rgb(158, 61, 44);
+
+}
+
+h1 {
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* For mobail */
+
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+/* NavBar start */
+.navBar {
+    margin: 1% 9%;
+}
+
+.navBar h2,
+span {
+    text-align: left;
+}
+
+.navBar span {
+    color: tomato;
+}
+
+.navBar::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* NavBar end */
+
+/* Our respice start */
+.our-respice {
+    margin: 1% 7%;
+}
+
+.our-respice img {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+
+.our-respice::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* Our respice end */
+
+/* View respice start */
+.view-respice {
+    margin: 1% 7%;
+    text-align: center;
+
+}
+
+.view-respice h2 {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.view-respice p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.card-tittle h3 {
+    font-size: 15px;
+}
+
+.view-respice .btn {
+    margin: 15px 20px;
+    background: tomato;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.view-respice .btn:hover {
+    transform: scale(1.1);
+}
+
+.view-respice::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* View respice end */
+
+/* hr start */
+.solid {
+    margin: 5% 7%;
+    border: 1px solid rgb(230, 111, 90);
+}
+
+.solid::after {
+    display: table;
+    content: "";
+    clear: both;
+
+}
+
+/* hr end */
+
+/* More respice start */
+.more-respice {
+    margin: 1% 7%;
+    text-align: center;
+}
+
+.more-respice h2 {
+    font-size: 17px;
+}
+
+.card {
+    margin: 0 1px;
+    overflow: hidden;
+}
+
+.food-item {
+    text-align: center;
+
+}
+
+.card-img {
+    width: 100%;
+    padding: 20px;
+}
+
+.card-img img {
+    width: 250px;
+}
+
+.card .btn {
+    margin: 15px 20px;
+    background: tomato;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card .btn:hover {
+    transform: scale(1.1);
+}
+
+.card-tittle h3 {
+    font-size: 17px;
+}
+
+.more-respice::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+/* More respice end */
+
+/* Social Menu start */
+.social-menu {
+    background: rgb(167, 59, 182);
+    color: #fff;
+    text-align: center;
+}
+
+.social-menu h2 {
+    font-size: 17px;
+    padding-top: 25px;
+}
+
+.social-menu>p {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.social-icon {
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    margin: 16px;
+}
+
+.social-icon i {
+    padding: 15px 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icon i:hover {
+    transform: scale(1.1);
+    background: gray;
+}
+
+.social-menu::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+/* Social Menu end */
+/* footer start */
+.footer {
+    background: gray;
+    text-align: center;
+    padding: 25px 10px;
+    margin: 0;
+}
+
+.footer-menu a {
+    margin: 0 13px;
+    font-size: 15px;
+    color: black;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+/* footer end */
